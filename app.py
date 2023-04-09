@@ -7,7 +7,7 @@ import pandas as pd
 app = Dash(__name__)
 server = app.server
 
-df = pd.read_csv('https://github.com/JWastin/Dash/blob/main/Title_1')
+df = pd.read_csv('https://raw.githubusercontent.com/JWastin/Dash/main/Title_1')
 
 fig = px.scatter(df, x="X", y="Y")
 
