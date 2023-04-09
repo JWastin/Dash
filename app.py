@@ -7,7 +7,7 @@ import pandas as pd
 app = Dash(__name__)
 server = app.server
 
-df = pd.read_csv('/home/edmon/Documents/Labo/Physio_Ca/Rutter Lab Analysis/1. Calcuim Immaging plots/Table_1')
+df = pd.read_csv('https://github.com/JWastin/Dash/blob/main/Title_1')
 
 fig = px.scatter(df, x="gdp per capita", y="life expectancy",
                  size="population", color="continent", hover_name="country",
