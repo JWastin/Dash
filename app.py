@@ -5,6 +5,7 @@ import pandas as pd
 
 
 app = Dash(__name__)
+server = app.server
 
 df = pd.read_csv('/home/edmon/Documents/Labo/Physio_Ca/Rutter Lab Analysis/1. Calcuim Immaging plots/Table_1')
 
