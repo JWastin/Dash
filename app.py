@@ -16,9 +16,7 @@ fig = px.scatter(df,x="X",y="Y")
 
 app.layout = html.Div([
     html.Header("Position of cells center",{"fontsize" : 40,
-                                            "textAlign" : "center"
-        }
-    ),
+                                            "textAlign" : "center"}),
     
     dcc.Graph(
         id='cells position',
