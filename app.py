@@ -6,6 +6,7 @@ from dash import Dash, dcc, html
 
 
 app = dash.Dash(__name__)
+server = app.server
 
 df = pd.read_csv('https://raw.githubusercontent.com/JWastin/Dash/main/Title_1')
 
@@ -19,5 +20,6 @@ app.layout = html.Div([
 ])
 
 if __name__ == '__main__':
-    server = app.server()
+    app.server.run(debug=True) 
+    
 
