@@ -19,6 +19,12 @@ app.layout = html.Div([
         id='cells position',
         figure=fig
     )
+    html.header(
+        "Position of cells center",
+        {
+         "fontsize" : 40,
+         "textAlign : center
+        }
 ])
 
 if __name__ == '__main__':
