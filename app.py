@@ -19,7 +19,7 @@ app.layout = html.Div([
         "Position of cells center",
         {
          "fontsize" : 40,
-         "textAlign : center
+         "textAlign" : "center"
         })
     
     dcc.Graph(
