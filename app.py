@@ -5,7 +5,7 @@ import pandas as pd
 from dash import Dash, dcc, html
 
 
-app = Dash(__name__)
+app = dash.Dash(__name__)
 
 df = pd.read_csv('https://raw.githubusercontent.com/JWastin/Dash/main/Title_1')
 
