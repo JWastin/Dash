@@ -8,7 +8,7 @@ from dash import Dash, dcc, html
 app = dash.Dash(__name__)
 server = app.server
 
-df = pd.read_csv('https://raw.githubusercontent.com/JWastin/Dash/main/Title_1')
+df = [[X,Y],[1,2],[3,4]]
 
 fig = px.scatter(df, x="X", y="Y")
 
