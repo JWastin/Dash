@@ -10,7 +10,7 @@ server = app.server
 
 #df = [[1,2],[3,4]]
 #fig = px.scatter(df)
-df= pd.read_csv("https://raw.githubusercontent.com/JWastin/Dash/main/Title_1")
+df= pd.read_csv("https://raw.githubusercontent.com/JWastin/Dash/main/Title_1.csv")
 fig = px.scatter(df,x="X",y="Y")
 
 
